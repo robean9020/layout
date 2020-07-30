@@ -1,0 +1,163 @@
+.footer {
+  background-color: #222222;
+  height: auto;
+}
+
+.footer h5 {
+  color: #f7f7f7;
+}
+
+.footer p {
+  color: #888888;
+}
+
+.footer hr {
+  color: #8c70ba;
+  border-top: 1px solid #393939;
+  margin-left: 0px;
+}
+
+.footer__row {
+  padding-top: 56px;
+  padding-left: 8px;
+}
+
+.footer__row hr {
+  color: #8c70ba;
+  border-top: 1px solid #393939;
+  margin-left: 0px;
+  margin-top: 26px;
+}
+
+.footer__row p.icon {
+  padding-top: 26px;
+}
+
+.footer__row p.description-franco {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+.footer__row__navigation {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.footer__row__navigation ul li {
+  padding-top: 7px;
+  color: #888888;
+  list-style: none;
+}
+
+.footer__row__navigation ul.left {
+  font-size: 15px;
+  margin-top: 3px;
+  padding-right: 40px;
+  padding-left: 0px;
+}
+
+.footer__row__navigation ul.right {
+  font-size: 15px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.footer__row__navigation ul li:hover {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer__row__shop-location ul li {
+  color: #888888;
+  list-style: none;
+}
+
+.footer__row__shop-location ul.shop-location {
+  padding-left: 0px;
+  width: 65%;
+}
+
+.footer__row__shop-location ul li:hover {
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer__end--red {
+  color: #ff4628;
+}
+
+.footer__end--company {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer__end__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin-top: 23px;
+  margin-left: 5px;
+  font-size: 14.5px;
+}
+
+.footer__end__block p.company {
+  color: #ffffff;
+}
+
+.footer__end__block p.logo-footer {
+  position: absolute;
+  right: 19.6%;
+  margin-top: -3px;
+}
+
+.footer hr.hr-end {
+  margin-top: 29px;
+}
+
+.footer__end__company {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__row__navigation--left {
+    margin-top: -2px;
+  }
+  .footer__row__navigation--right {
+    margin-left: 40px;
+  }
+  .footer__navigation {
+    margin-left: 97px;
+  }
+  .footer__row__shop-location ul.shop-location {
+    padding-bottom: 0px;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 6px;
+    margin-top: 26px;
+  }
+  .footer__row__location {
+    margin-left: 96px;
+  }
+  .footer__row__shop-location ul li {
+    padding-left: 3px;
+    padding-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .footer__end__block {
+    display: block;
+  }
+  .footer__end__block p.logo-footer {
+    position: inherit;
+    margin-top: -15px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

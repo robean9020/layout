@@ -1,0 +1,148 @@
+@import 'variables';
+
+
+.footer{
+    background-color: $color-background-header-footer;
+    height: auto;
+    h5{
+        color: $color-h5-footer;
+    };
+    p{
+        color: $color-a-footer;
+    };
+    hr{
+        color: $color-hover;
+        border-top: 1px solid $color-hr-footer;
+        margin-left: 0px;
+    }
+}
+
+.footer__row{
+    padding-top: 56px;
+    padding-left: 8px;
+    hr{
+        color: $color-hover;
+        border-top: 1px solid $color-hr-footer;
+        margin-left: 0px;
+        margin-top: 26px;
+    }
+    p.icon{
+        padding-top: 26px;
+    }
+    p.description-franco{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        padding-top: 7px;
+    }
+}
+.footer__row__navigation{
+    display: inline-flex;
+    ul li{
+        padding-top: 7px;
+        color: $color-a-footer;
+        list-style: none;
+    };
+    ul.left{
+        font-size: 15px;
+        margin-top: 3px;
+        padding-right: 40px;
+        padding-left: 0px;
+    }
+    ul.right{
+        font-size: 15px;
+        margin-top: 3px;
+        margin-left: 5px;
+    }
+    ul li:hover{
+        color: $color-white;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.footer__row__shop-location{
+    ul li{
+        color: $color-a-footer;
+        list-style: none;
+    };
+    ul.shop-location{
+        padding-left : 0px;
+        width: 65%;
+    }
+    ul li:hover{
+        color: $color-white;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+.footer__end--red{
+    color: $color-heart-footer;
+}
+
+.footer__end--company{
+    color: $color-white;
+    font-size: 16px;
+}
+
+.footer__end__block{
+    display: flex;
+    height: 50px;
+    p.company{
+        color: $color-white;
+    }
+    p.logo-footer{
+        position:absolute;
+        right : 19.6%;
+        margin-top: -3px;
+    }
+    margin-top: 23px;
+    margin-left: 5px;
+    font-size: 14.5px;
+}
+.footer{
+    hr.hr-end{
+        margin-top: 29px;
+    }
+}
+.footer__end__company{
+    display: inline-flex;
+}
+
+@media screen and (min-width:1200px){
+    .footer__row__navigation--left{
+        margin-top: -2px;
+    }
+    
+    .footer__row__navigation--right{
+        margin-left: 40px;
+    }
+    .footer__navigation{
+        margin-left: 97px;
+    }
+    .footer__row__shop-location ul.shop-location {
+        padding-bottom: 0px;
+        font-size: 14px;
+        width: 100%;
+        margin-left: 6px;
+        margin-top: 26px;
+    }
+    .footer__row__location{
+        margin-left: 96px;
+    }
+    .footer__row__shop-location ul li {
+        padding-left: 3px;
+        padding-bottom: 12px;
+    }
+}
+
+@media screen and (max-width:750px){
+    .footer__end__block{
+        display: block;
+    }
+    .footer__end__block{
+        p.logo-footer{
+            position: inherit;
+            margin-top: -15px;
+        }
+    }
+}

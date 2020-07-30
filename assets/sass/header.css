@@ -1,0 +1,143 @@
+.header__top {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: #222222;
+  height: 46px;
+  font-size: 15px;
+  padding-left: 30px !important;
+}
+
+.header__top__left {
+  padding-top: 12px;
+}
+
+.header__top__left p {
+  color: #4d4d4d;
+}
+
+.header__top__right {
+  padding-top: 12px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  right: 14px;
+}
+
+.header__top__right p {
+  color: #4d4d4d;
+}
+
+.header__top__right p.lock {
+  padding-left: 30px;
+}
+
+.header__bottom {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.header__bottom a {
+  color: #000000 !important;
+  font-weight: bold;
+}
+
+.header__bottom a:hover {
+  color: #8c70ba !important;
+}
+
+.header__bottom__logo {
+  margin-top: 18px;
+  margin-left: 14px;
+}
+
+.header__bottom__menu {
+  position: relative;
+  top: 12px;
+  right: -15.3%;
+  width: auto;
+  font-size: 14px;
+}
+
+.header__bottom__icon-search {
+  position: absolute;
+  right: 33em;
+  top: 4.6em;
+}
+
+.header__bottom__icon-heart {
+  position: absolute;
+  right: 71.5px;
+  top: 66.5px;
+}
+
+.header__bottom__icon-heart a {
+  font-size: 25px;
+}
+
+.header__bottom__icon-cart {
+  position: absolute;
+  right: 13px;
+  top: 71.5px;
+}
+
+.header__bottom__icon-cart a {
+  font-size: 25px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 52px !important;
+    padding-left: .5rem;
+  }
+}
+
+@media (max-width: 1390px) {
+  .header__bottom__menu {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 1151px) and (min-width: 993px) {
+  .header__bottom__right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1832px) {
+  .header__bottom__icon-search {
+    position: absolute;
+    right: 135px;
+    top: 4.6em;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .header__bottom__icon-search {
+    display: none;
+  }
+  .header__bottom__icon-heart {
+    display: none;
+  }
+  .header__bottom__icon-cart {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .header__top .header__top__right {
+    display: none;
+  }
+  .header__top .header__top__left {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 409px) {
+  .header__top {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */
