@@ -5,6 +5,9 @@
 
 .footer h5 {
   color: #f7f7f7;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
 .footer p {
@@ -18,8 +21,8 @@
 }
 
 .footer__row {
-  padding-top: 56px;
-  padding-left: 8px;
+  padding-top: 62px;
+  padding-left: 9px;
 }
 
 .footer__row hr {
@@ -145,6 +148,9 @@
   .footer__row__location {
     margin-left: 96px;
   }
+  .footer__row__location h5 {
+    margin-left: 6px;
+  }
   .footer__row__shop-location ul li {
     padding-left: 3px;
     padding-bottom: 12px;
@@ -158,6 +164,15 @@
   .footer__end__block p.logo-footer {
     position: inherit;
     margin-top: -15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer__navigation {
+    margin-top: 50px;
+  }
+  .footer__row__location {
+    margin-top: 50px;
   }
 }
 /*# sourceMappingURL=footer.css.map */

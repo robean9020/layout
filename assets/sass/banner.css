@@ -7,6 +7,10 @@
   width: 100%;
 }
 
+.banner__cart__product-add-item {
+  position: relative;
+}
+
 .banner__row__image-banner-right-bottom img {
   margin-top: 25px;
 }
@@ -43,13 +47,20 @@
 }
 
 .banner__row__banner-right-bottom {
-  margin-top: 25px;
+  margin-top: 28px;
+  position: relative;
+}
+
+.banner__row__banner-right-top {
+  position: relative;
 }
 
 .banner__row__banner-right-top-word {
   position: absolute;
-  top: 15%;
-  left: 5em;
+  top: 55%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 64px;
 }
 
 .banner__row__banner-right-top-word p.small-thing {
@@ -67,14 +78,16 @@
 
 .banner__row__banner-right-bottom-word {
   position: absolute;
-  top: 60%;
-  left: 5em;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  left: 4em;
 }
 
 .banner__row__banner-right-bottom-word p.folio {
   color: #4d4d4d;
-  margin-top: 16px;
-  margin-left: -16px;
+  margin-top: 21px;
+  margin-left: -15px;
 }
 
 .banner__row__banner-right-bottom-word p.backpack {
@@ -82,7 +95,7 @@
   font-weight: bold;
   margin-top: -22px;
   font-size: 23px;
-  margin-left: -18px;
+  margin-left: -15px;
 }
 
 .banner__row__banner-right-bottom-word p.now:hover {
@@ -93,7 +106,7 @@
 .banner__row__banner-right-bottom-word p.now {
   background-color: #8c70ba;
   width: 108px;
-  margin-left: -16px;
+  margin-left: -15px;
   margin-top: -5px;
   height: 40px;
   color: #ffffff;
@@ -107,15 +120,18 @@
 .banner__franco p.franco {
   color: #8c70ba;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
+  letter-spacing: 0.8px;
   margin: -7px 0px 4px 7px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .banner__franco p.featured-items {
-  font-size: 27px;
+  font-size: 24px;
+  letter-spacing: 2.3px;
   font-weight: bold;
   margin-left: 7px;
+  padding-bottom: 4px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -154,8 +170,8 @@
   position: absolute;
   background: #ffffff;
   width: 117px;
-  top: 65%;
-  left: 10%;
+  bottom: -3.5%;
+  left: 5.5%;
   height: 40px;
   padding: 10px;
   font-size: 14px;
@@ -169,6 +185,7 @@
 
 .banner__cart--col-1 p.description {
   margin-top: 15px;
+  letter-spacing: -0.2px;
   font-size: 14px;
   margin-left: 7px;
   font-weight: 600;
@@ -209,8 +226,8 @@
   background: #ffffff;
   width: 117px;
   font-size: 14px;
-  top: 65%;
-  left: 10.4%;
+  bottom: -3.5%;
+  left: 5.5%;
   height: 40px;
   padding-left: 16px;
   padding-top: 10px;
@@ -223,6 +240,7 @@
 
 .banner__cart--col-2 p.description {
   margin-top: 15px;
+  letter-spacing: -0.2px;
   font-size: 14px;
   margin-left: 7px;
   font-weight: 600;
@@ -258,8 +276,8 @@
   background: #ffffff;
   width: 117px;
   font-size: 14px;
-  top: 65%;
-  left: 10%;
+  bottom: -3.5%;
+  left: 5.5%;
   height: 40px;
   padding-top: 10px;
   padding-left: 17px;
@@ -271,7 +289,8 @@
 }
 
 .banner__cart--col-3 p.description {
-  margin-top: 12px;
+  margin-top: 15px;
+  letter-spacing: -0.2px;
   font-size: 14px;
   margin-left: 7px;
   font-weight: 600;
@@ -306,8 +325,8 @@
   position: absolute;
   background: #ffffff;
   width: 117px;
-  top: 65%;
-  left: 10.4%;
+  bottom: -3.5%;
+  left: 5.5%;
   font-size: 14px;
   height: 40px;
   padding-left: 16px;
@@ -320,7 +339,7 @@
 }
 
 .banner__cart--col-4 p.description {
-  margin-top: 12px;
+  margin-top: 15px;
   font-size: 14px;
   margin-left: 7px;
   font-weight: 600;
@@ -357,22 +376,26 @@
 
 .banner__bottom__slogan p.latest {
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
-  margin-left: 18px;
-  font-weight: 600;
-  margin-top: -3px;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  color: #8c70ba;
+  font-weight: bold;
+  margin-top: -1px;
 }
 
 .banner__bottom__slogan h3 {
-  margin-top: -10px;
-  font-size: 28px;
+  margin-top: -6px;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 2.5px;
   font-family: 'Montserrat', sans-serif;
-  margin-left: 16px;
+  margin-left: 21px;
 }
 
 .banner__bottom__slogan hr {
   width: 50px;
-  margin-top: 20px;
+  margin-top: 23px;
   margin-left: 49.2%;
   color: #8c70ba;
   border-top: 1px solid #8262b5;
@@ -483,10 +506,12 @@
   }
   .banner__row--image-banner-right-bottom img {
     margin-top: 1px;
-    margin-left: 7px;
+    margin-left: 8px;
   }
   .banner__row__banner-right-top img {
     margin-left: 7px;
+  }
+  .banner__row__column__2 {
     margin-top: 15px;
   }
 }
@@ -520,60 +545,24 @@
   }
 }
 
-@media screen and (max-width: 1198px) {
+@media screen and (max-width: 992px) {
   .banner__cart--col-4 p.add-to-cart {
-    top: 59%;
-    left: 13.4%;
+    bottom: 0%;
   }
   .banner__cart--col-3 p.add-to-cart {
-    top: 59%;
-    left: 13.4%;
+    bottom: 0%;
   }
   .banner__cart--col-2 p.add-to-cart {
-    top: 59%;
-    left: 13.4%;
+    bottom: 0%;
   }
   .banner__cart--col-1 p.add-to-cart {
-    top: 59%;
-    left: 13.4%;
+    bottom: 0%;
   }
 }
 
-@media screen and (max-width: 767px) {
-  .banner__cart--col-4 p.add-to-cart {
-    top: 77%;
-    left: 10.4%;
-  }
-  .banner__cart--col-3 p.add-to-cart {
-    top: 77%;
-    left: 10.4%;
-  }
-  .banner__cart--col-2 p.add-to-cart {
-    top: 77%;
-    left: 10.4%;
-  }
-  .banner__cart--col-1 p.add-to-cart {
-    top: 77%;
-    left: 10.4%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .banner__cart--col-4 p.add-to-cart {
-    top: 65%;
-    left: 10.4%;
-  }
-  .banner__cart--col-3 p.add-to-cart {
-    top: 65%;
-    left: 10.4%;
-  }
-  .banner__cart--col-2 p.add-to-cart {
-    top: 65%;
-    left: 10.4%;
-  }
-  .banner__cart--col-1 p.add-to-cart {
-    top: 65%;
-    left: 10.4%;
+@media screen and (min-width: 993px) and (max-width: 1110px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 35px !important;
   }
 }
 /*# sourceMappingURL=banner.css.map */

@@ -9,6 +9,9 @@
     width: 100%;
 }
 
+.banner__cart__product-add-item{
+    position: relative;
+}
 .banner__row__image-banner-right-bottom img{
     margin-top: 25px;
 }
@@ -41,13 +44,19 @@
 }
 
 .banner__row__banner-right-bottom{
-    margin-top: 25px;
+    margin-top: 28px;
+    position: relative;
+}
+
+.banner__row__banner-right-top{
+    position: relative;
 }
 
 .banner__row__banner-right-top-word{
     position: absolute;
-    top: 15%;
-    left: 5em;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 64px;
     p.small-thing{
         color: $color-font-top;
         margin-top: 11px;
@@ -63,12 +72,13 @@
 
 .banner__row__banner-right-bottom-word{
     position: absolute;
-    top: 60%;
-    left: 5em;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 4em;
     p.folio{
         color: $color-font-top;
-        margin-top: 16px;
-        margin-left: -16px;
+        margin-top: 21px;
+        margin-left: -15px;
     }
     
     p.backpack{
@@ -76,7 +86,7 @@
         font-weight: bold;
         margin-top: -22px;
         font-size: 23px;
-        margin-left: -18px;
+        margin-left: -15px;
     };
 
     p.now:hover{
@@ -87,7 +97,7 @@
     p.now{
         background-color: $color-hover;
         width: 108px;
-        margin-left: -16px;
+        margin-left: -15px;
         margin-top: -5px;
         height: 40px;
         color: #ffffff;
@@ -100,15 +110,18 @@
     p.franco{
         color: #8c70ba;
         font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
+        font-size: 13px;
+        letter-spacing: 0.8px;
         margin: -7px 0px 4px 7px;
-        font-weight: 600;
+        font-weight: bold;
 
     };
     p.featured-items{
-        font-size: 27px;
+        font-size: 24px;
+        letter-spacing: 2.3px;
         font-weight: bold;
         margin-left: 7px;
+        padding-bottom: 4px;
         font-family: 'Montserrat', sans-serif;
     }
     hr{
@@ -145,8 +158,8 @@
         position: absolute;
         background: $color-white;
         width: 117px;
-        top: 65%;
-        left: 10%;
+        bottom: -3.5%;
+        left: 5.5%;
         height: 40px;
         padding: 10px;
         font-size: 14px;
@@ -158,6 +171,7 @@
     }
     p.description{
         margin-top: 15px;
+        letter-spacing: -0.2px;
         font-size: 14px;
         margin-left: 7px;
         font-weight: 600;
@@ -193,8 +207,8 @@
         background: $color-white;
         width: 117px;
         font-size: 14px;
-        top: 65%;
-        left: 10.4%;
+        bottom: -3.5%;
+        left: 5.5%;
         height: 40px;
         padding-left: 16px;
         padding-top: 10px;
@@ -205,6 +219,7 @@
     };
     p.description{
         margin-top: 15px;
+        letter-spacing: -0.2px;
         font-size: 14px;
         margin-left: 7px;
         font-weight: 600;
@@ -236,8 +251,8 @@
         background: #ffffff;
         width: 117px;
         font-size: 14px;
-        top: 65%;
-        left: 10%;
+        bottom: -3.5%;
+        left: 5.5%;
         height: 40px;
         padding-top: 10px;
         padding-left: 17px;
@@ -247,7 +262,8 @@
         color: $color-hover;
     };
     p.description{
-        margin-top: 12px;
+        margin-top: 15px;
+        letter-spacing: -0.2px;
         font-size: 14px;
         margin-left: 7px;
         font-weight: 600;
@@ -278,8 +294,8 @@
         position: absolute;
         background: #ffffff;
         width: 117px;
-        top: 65%;
-        left: 10.4%;
+        bottom: -3.5%;
+        left: 5.5%;
         font-size: 14px;
         height: 40px;
         padding-left: 16px;
@@ -290,7 +306,7 @@
         color: $color-hover;
     };
     p.description{
-        margin-top: 12px;
+        margin-top: 15px;
         font-size: 14px;
         margin-left: 7px;
         font-weight: 600;
@@ -319,20 +335,24 @@
     padding-top: 80px;
     p.latest{
         font-family: 'Montserrat', sans-serif;
-        font-size: 14px;
-        margin-left: 18px;
-        font-weight: 600;
-        margin-top: -3px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-left: 20px;
+        color: #8c70ba;
+        font-weight: bold;
+        margin-top: -1px;
     }
     h3{
-        margin-top: -10px;
-        font-size: 28px;
+        margin-top: -6px;
+        font-weight: bold;
+        font-size: 24px;
+        letter-spacing: 2.5px;
         font-family: 'Montserrat', sans-serif;
-        margin-left: 16px;
+        margin-left: 21px;
     }
     hr{
         width: 50px;
-        margin-top: 20px;
+        margin-top: 23px;
         margin-left: 49.2%;
         color: $color-hover;
         border-top: 1px solid $color-price-now;
@@ -434,15 +454,17 @@
     .banner__row--image-banner-right-bottom{
         img{
             margin-top: 1px;
-            margin-left: 7px;
+            margin-left: 8px;
         }
     }
     
     .banner__row__banner-right-top{
         img{
             margin-left: 7px;
-            margin-top: 15px;
         }
+    }
+    .banner__row__column__2{
+        margin-top: 15px;
     }
 }
 @media screen and (max-width : 767px){
@@ -482,59 +504,25 @@
     }
 }
 
-@media screen and (max-width:1198px){
+@media screen and (max-width:992px){
     .banner__cart--col-4 p.add-to-cart{
-        top: 59%;
-        left:13.4%;
+        bottom: 0%;
     }
     .banner__cart--col-3 p.add-to-cart{
-        top: 59%;
-        left:13.4%;
+        bottom: 0%;
     }
     .banner__cart--col-2 p.add-to-cart{
-        top: 59%;
-        left:13.4%;
+        bottom: 0%;
     }
     .banner__cart--col-1 p.add-to-cart{
-        top: 59%;
-        left:13.4%;
+        bottom: 0%;
     }
 }
 
-@media screen and (max-width:767px){
-    .banner__cart--col-4 p.add-to-cart{
-        top: 77%;
-        left:10.4%;
-    }
-    .banner__cart--col-3 p.add-to-cart{
-        top: 77%;
-        left:10.4%;
-    }
-    .banner__cart--col-2 p.add-to-cart{
-        top: 77%;
-        left:10.4%;
-    }
-    .banner__cart--col-1 p.add-to-cart{
-        top: 77%;
-        left:10.4%;
+
+@media screen and (min-width: 993px) and (max-width: 1110px){
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 35px !important;
     }
 }
 
-@media screen and (max-width:480px){
-    .banner__cart--col-4 p.add-to-cart{
-        top: 65%;
-        left:10.4%;
-    }
-    .banner__cart--col-3 p.add-to-cart{
-        top: 65%;
-        left:10.4%;
-    }
-    .banner__cart--col-2 p.add-to-cart{
-        top: 65%;
-        left:10.4%;
-    }
-    .banner__cart--col-1 p.add-to-cart{
-        top: 65%;
-        left:10.4%;
-    }
-}
